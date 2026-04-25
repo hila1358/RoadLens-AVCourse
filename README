@@ -1,0 +1,57 @@
+# 🚗 RoadLens – Real-Time Traffic Sign Detection System
+
+RoadLens is a real-time traffic sign detection system designed as a **Perception Module** for autonomous driving.
+
+---
+
+## 🎯 Overview
+
+The system detects and classifies traffic signs from a live camera feed using computer vision and AI.
+
+---
+
+## 🧠 System Flow
+
+```
+Camera → Processing → Detection → Output
+```
+
+* **Input:** Camera / video stream
+* **Processing:** OpenCV + detection model (e.g., YOLO)
+* **Detection:** Stop, Speed Limit, Pedestrian Crossing
+* **Output:** Bounding boxes + labels + confidence
+
+---
+
+## ⚙️ Technologies
+
+* Python
+* OpenCV
+* YOLO (or similar model)
+* MQTT (optional)
+
+---
+
+## 🚀 How It Works
+
+1. Capture frame from camera
+2. Process using OpenCV
+3. Detect traffic signs
+4. Display results in real-time
+
+---
+
+## 🧩 Goal
+
+To simulate a real-world **perception system** used in autonomous vehicles.
+
+---
+
+## 📌 Features
+
+* Real-time detection
+* Modular pipeline
+* Visual output
+* Optional messaging (MQTT)
+
+---
