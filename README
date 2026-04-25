@@ -1,6 +1,7 @@
-#RoadLens – Real-Time Traffic Sign Detection System 🚗🚗
+# RoadLens – Real-Time Traffic Sign Detection System 🚗
 
 RoadLens is a real-time traffic sign detection system designed as a **Perception Module** for autonomous driving.
+Pawlytics is an IoT-based system that monitors a pet’s food, water levels, and activity in real time. It uses MQTT communication between sensors, a data manager, and a GUI dashboard to detect abnormal conditions and trigger alerts or actions. The system enables remote awareness and control to ensure continuous pet care.
 
 ---
 
